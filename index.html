@@ -9,7 +9,10 @@
 
 <body>
     <div class="scoreboard">
-        <p><a target="_blank" href="assets/scoreboard.html">View Highscores</a></p>
+        <p>Highscores:</p>
+        <ul id="scoreboard">
+
+        </ul>
     </div>
     <div class="timecount">
         <p>Time: <span id="timer">60</span></p>
@@ -42,8 +45,8 @@
         .buttons {
             position: absolute;
             top: 200px;
-            left: 45%;
-            right: 45%;
+            left: 49%;
+            right: 49%;
         }
 
         .questions {
@@ -56,8 +59,15 @@
 
         .answer {
             position: absolute;
-            top: 300px;
+            top: 350px;
             left: 45%;
+        }
+
+        button {
+            background-color: purple;
+            border: none;
+            color: white;
+            border-radius: 5px;
         }
     </style>
 
