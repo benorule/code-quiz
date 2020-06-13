@@ -1,6 +1,10 @@
 # code-quiz
 Coursework Assignment No. 4 for Coding Bootcamp
 
+Link to deployed application: https://benorule.github.io/code-quiz/
+
+Screenshot of deployed application: ![Index file screenshot](/assets/code-quiz-screenshot.png?raw=true "Application Screenshot")
+
 ## Static Content
 I began by creating the static content of the html webpage. This included the "view highscores" link in the top left corner and the timer in the top right corner. I gave the timer an id that will be useful later when referring to it in the javascript file in order to make part of it dynamic. I created an empty html file called "scoreboard.html" that opens when the "view highscores" is clicked on. I used the target="_blank" attribute to ensure it opens in a new tab so viewing highscores doesn't end the quiz. The scoreboard webpage will consist of mostly dynamic content.
 
