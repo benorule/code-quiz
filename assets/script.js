@@ -3,21 +3,23 @@ var timerDisplay = document.getElementById("timer"); // Setting link to html as 
 document.body.onload = addStartButton;
 
 function addStartButton() {
-    // create a new div element 
+    // Start Button
     var startButton = document.createElement("button"); // Dynamically create the new start button
-    // and give it some content 
     var startButtonContent = document.createTextNode("Start"); // Write text to be added to button
-    // add the text node to the newly created div
     startButton.appendChild(startButtonContent); // Add the text to the button
-
-    // add the newly created element and its content into the DOM 
-    var currentDiv = document.getElementById("buttons");
-    currentDiv.appendChild(startButton);
-    // document.body.insertBefore(startButton, currentDiv); 
-
+    var currentDiv = document.getElementById("buttons"); // Select div to insert the button into
+    currentDiv.appendChild(startButton); // Add button and content into the DOM
+    // Quiz Title
+    var startTitle = document.createElement("h1"); // Dynamically create the head tag
+    var startTitleContent = document.createTextNode("Javascript Theory Quiz"); // Write text to be added
+    startTitle.appendChild(startTitleContent); // Add the text to the head tag
+    var currentDiv = document.getElementById("questions"); // Select div to insert the title into
+    currentDiv.appendChild(startTitle); // Add head tag and content into the DOM
+    // Click Event
     startButton.addEventListener("click", function removeStartButton() {
-        startButton.parentNode.removeChild(startButton);
-        timerStart();
+        startButton.parentNode.removeChild(startButton); // Remove button from webpage
+        startTitle.parentNode.removeChild(startTitle); // Remove title from webpage
+        timerStart(); // Start Timer
     });
 }
 
