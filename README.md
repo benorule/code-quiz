@@ -20,3 +20,6 @@ In the same function in which the button is dynamically created I used the same 
 
 ## First Question
 I created a function that presents the user with the first question of the quiz. I called this function in the click event of the start function. The function dynamically creates a head tag with the question in it and four buttons each with an option to choose for your answer to the question. I created seperate click events for each of these buttons. In all of these click events the question and all four buttons are removed. In the click event for the button with the correct answer the newly created variable totalScore is increased by one. The totalScore variable will be used later when designing the scoreboard html page. In the other three click events the variable totalSeconds is decreased by 10 seconds as a penalty. In order for this to work I had to remove the totalSeconds variable outside of the timerStart function making it a global variable.
+
+## Second, Third and Fourth Question
+I reused a lot of code from the first question changing only which button had the correct answer and the naming of the question.
