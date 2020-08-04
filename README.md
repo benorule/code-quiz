@@ -1,6 +1,4 @@
 # code-quiz
-Coursework Assignment No. 4 for Coding Bootcamp
-
 Link to deployed application: https://benorule.github.io/code-quiz/
 
 Screenshot of deployed application: ![Index file screenshot](/assets/code-quiz-screenshot.png?raw=true "Application Screenshot")
