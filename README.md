@@ -3,6 +3,30 @@ Link to deployed application: https://benorule.github.io/code-quiz/
 
 Screenshot of deployed application: ![Index file screenshot](/assets/code-quiz-screenshot.png?raw=true "Application Screenshot")
 
+## Table of Contents: 
+ * [Description](#Description) 
+* [Installation Instructions](#Installation-Instructions) 
+* [Usage Information](#Usage-Information) 
+* [Contribution Guidlines](#Contribution-Guidelines) 
+* [Test Instructions](#Test-Instructions) 
+* [Questions](#Questions) 
+## Description 
+A simple quiz for students learning javascript to test their knowledge on the language.
+## Installation Instructions 
+This project is hosted by GitHub pages. Alternatively you can run it on local host after downloading from GitHub either by cloning the repository or downloading the zip file.
+## Usage Information 
+Use the buttons displayed on the webpage to answer the questions.
+## Contribution Guidelines 
+To contribute to this project please submit a pull request on GitHub with a clear description of your contribution.
+## Test Instructions 
+To test this application interact with the on screen buttons with the chrome dev tools console open.
+## Questions 
+ * GitHub: https://github.com/benorule
+* Email: benorule@outlook.com
+* License: MIT
+
+# Some information about the development process:
+
 ## Static Content
 I began by creating the static content of the html webpage. This included the "view highscores" link in the top left corner and the timer in the top right corner. I gave the timer an id that will be useful later when referring to it in the javascript file in order to make part of it dynamic. I created an empty html file called "scoreboard.html" that opens when the "view highscores" is clicked on. I used the target="_blank" attribute to ensure it opens in a new tab so viewing highscores doesn't end the quiz. The scoreboard webpage will consist of mostly dynamic content.
 
